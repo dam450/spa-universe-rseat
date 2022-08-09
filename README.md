@@ -1,2 +1,3 @@
 # spa-universe-rseat
-Uma simples SPA (Single Page Applicattion)
+
+Uma simples SPA (Single Page Application)
