@@ -134,7 +134,7 @@ button:hover {
   color: var(--accent-hover);
 }
 
-.home {
+.home, .e404 {
   display: flex;
   flex-direction: column;
   align-items: center;

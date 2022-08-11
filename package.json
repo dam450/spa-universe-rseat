@@ -1,13 +1,12 @@
 {
-  "name": "SPA Universe",
+  "name": "spa-universe",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "lite-server"
   },
-  "keywords": [],
-  "author": "",
+  "author": "dam450",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
