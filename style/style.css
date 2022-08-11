@@ -10,7 +10,7 @@
 
   --txt-color: #e1e1e6;
   --nav-links: #c4c4cc;
-  --accent-hover: #02799D;
+  --accent-hover: #02799d;
 }
 
 body,
@@ -20,9 +20,17 @@ button {
 
 body {
   font-size: 1.6rem;
-  background: #555;
-  background-image: url('../img/mountains-universe-1.png');
+  background: linear-gradient(#0F222F, #000) ;
   color: var(--txt-color);
+
+  height: 100vh;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center bottom;
+
+  transition: 600ms;
 }
 
 .wrapper {
@@ -72,6 +80,11 @@ nav ul li a:hover {
   filter: brightness(1.2);
   font-weight: 700;
   color: var(--accent-hover);
+}
+
+nav ul li a.active {
+  font-weight: bold;
+  color: white;
 }
 
 section {
