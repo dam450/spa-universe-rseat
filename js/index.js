@@ -5,9 +5,9 @@ const navLinks = document.querySelectorAll('nav ul li a')
 
 // adicionando as rotas
 router.add('404', '/pages/404.html')
-router.add('/', '/pages/home.html', '../img/mountains-universe-1.png')
-router.add('/universe', '/pages/universe.html', '../img/mountains-universe-2.png')
-router.add('/exploration', '/pages/exploration.html', '../img/mountains-universe-3.png')
+router.add('/', '/pages/home.html', '../img/mountains-universe-1.jpg')
+router.add('/universe', '/pages/universe.html', '../img/mountains-universe-2.jpg')
+router.add('/exploration', '/pages/exploration.html', '../img/mountains-universe-3.jpg')
 
 
 // handlers

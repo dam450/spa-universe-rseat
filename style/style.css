@@ -20,7 +20,7 @@ button {
 
 body {
   font-size: 1.6rem;
-  background: linear-gradient(#0F222F, #000) ;
+  background: black;
   color: var(--txt-color);
 
   height: 100vh;
